@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    gap: 1em;
+}
+
+.container .img {
+    flex: 0 0 auto;
+    width: 10em;
+    overflow: hidden;
+    display: flex;
+
+}
+
+
+
+
+.container .img {
+    box-shadow: 0 0 1.3em 0 rgba(0, 0, 0, 0.5);
+    border-radius: 0.5em;
+}
+
+.container .img:hover {
+    width: auto;
+    border-left: 15px solid black;
+    border-right: 15px solid black;
+}

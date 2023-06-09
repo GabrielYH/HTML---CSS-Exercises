@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(208, 207, 206, 0.442);
+}
+
+body,
+ul,
+li {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery {
+    flex: 0 0 100%;
+}
+
+ul {
+    margin: 4.5em 4em;
+}
+
+li {
+    margin: 0 auto;
+    margin-bottom: 3em;
+    background-color: white;
+    align-items: center;
+    border: 8px solid black;
+    box-shadow:
+     0 0 0.5em 0 rgba(0, 0, 0, 0.3) inset,
+     0 0 1em 0 rgba(0, 0, 0, 0.4)
+    ;
+}
+
+img {
+    padding: 2em 1em;
+
+}
+
+ul {
+    justify-content: space-between;
+}
